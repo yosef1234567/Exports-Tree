@@ -5,6 +5,10 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosef1234567/Exports-Tree.git"
+  },
   "bin": {
     "exports-tree": "lib/index.js"
   },
@@ -15,10 +19,14 @@
   "keywords": [],
   "author": "yfnpms",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yosef1234567/Exports-Tree/issues"
+  },
   "dependencies": {
     "chalk": "^5.0.0",
     "yargs": "^17.0.1"
   },
+  "homepage": "https://github.com/yosef1234567/Exports-Tree#readme",
   "devDependencies": {
     "@types/node": "^14.14.31",
     "@types/yargs": "^17.0.0",
